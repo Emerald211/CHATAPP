@@ -20,7 +20,7 @@ export const AuthContextProvider = ({ children }) => {
     return () => {
       unsubscribe();
     };
-  }, []);
+  }, [user]);
 
   return (
     <Usercontext.Provider value={{ user, logout }}>

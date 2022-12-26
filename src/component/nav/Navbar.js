@@ -42,9 +42,9 @@ const Navbar = () => {
         id="mySidenav"
         className="sidenav"
       >
-        <a className="closebtn" onClick={() => setnav(false)}>
+        <h5 className="closebtn" onClick={() => setnav(false)}>
           &times;
-        </a>
+        </h5>
         <h2
           className=" a"
           onClick={() => {

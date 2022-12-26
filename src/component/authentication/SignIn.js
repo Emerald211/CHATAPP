@@ -14,7 +14,7 @@ const SignIn = () => {
   const { user } = UserAuth();
   useEffect(() => {
     user && navigate("/home");
-  }, [user]);
+  }, [user, navigate]);
 
   console.log(user);
 
