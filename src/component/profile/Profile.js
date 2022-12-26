@@ -14,7 +14,10 @@ const Profile = () => {
         setName(displayName)
         setEmail(email)
             
-        }, [])
+        }, []);
+
+  
+        const profileName = name.slice(0, 2)
     
 
     const Signout = () => {
@@ -26,13 +29,13 @@ const Profile = () => {
       };
   return (
     <div className=" h-full w-full flex flex-col mt-4 items-center ">
-      <div className=" lg:w-[240px] lg:h-[240px] w-[160px] h-[160px] rounded-full flex justify-center text-xl items-center font-bold text-white bg-[#AE04B4]">
-        EA
+      <div className=" lg:w-[240px] lg:h-[240px] w-[160px] h-[160px] uppercase rounded-full flex justify-center text-xl items-center font-bold text-white bg-[#AE04B4]">
+      {profileName}
           </div>
           <div>
               <div className=" flex lg:gap-5 gap-2 mt-4 items-center">
                   <h5 className=" font-bold text-[#AE04B4]">Name:</h5>
-                  <h5>{ name }</h5>
+                  <h5>{ name}</h5>
               </div>
               <div className=" flex lg:gap-5 gap-2 mt-4 items-center">
                   <h5 className=" font-bold text-[#AE04B4]">Email:</h5>
