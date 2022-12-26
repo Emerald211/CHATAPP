@@ -1,0 +1,24 @@
+.signin-box{
+
+display: flex;
+justify-content: center;
+}
+
+.signin-box h1{
+    font-family: 'Merriweather', serif;
+}
+
+.signin-container{
+    background: rgb(255,16,205);
+background: linear-gradient(86deg, rgba(255,16,205,1) 0%, rgba(189,71,235,1) 75%);
+
+}
+
+.google{
+    background-color: rgb(215, 5, 223) !important;
+}
+
+.google:hover{
+    box-shadow: 2px 2px 5px 2px white !important;
+
+}

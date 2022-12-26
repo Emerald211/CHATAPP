@@ -1,0 +1,59 @@
+.sidenav{
+    display: none;
+}
+
+.blur{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .blur{
+        height: 100%; 
+        width: 0;
+        position: fixed;
+        display: block;
+        z-index: 1; 
+        top: 0; 
+        left: 0;
+        background: rgb(99, 94, 99);
+        opacity: 0.4;
+        
+    }
+
+    .sidenav {
+        height: 100%; 
+        width: 0;
+        position: fixed;
+        display: block;
+        z-index: 3; 
+        top: 0; 
+        left: 0;
+        background: rgb(255,16,205);
+        background: linear-gradient(86deg, rgba(255,16,205,1) 0%, rgba(189,71,235,1) 75%);
+        overflow-x: hidden; 
+        padding-top: 60px; 
+        transition: 0.5s; 
+      }
+      
+      .sidenav .a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav .a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        color: white;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+}
