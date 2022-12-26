@@ -14,7 +14,7 @@ const Profile = () => {
         setName(displayName)
         setEmail(email)
             
-        }, [auth])
+        }, [])
     
 
     const Signout = () => {
