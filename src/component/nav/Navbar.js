@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { BsFillChatDotsFill } from "react-icons/bs";
 import { BiMenuAltLeft } from "react-icons/bi";
-import { auth } from "../firebase/firebase-config";
-import { useAuthState } from "react-firebase-hooks/auth";
 import { UserAuth } from "../context/Authcontext";
 import "./Navbar.css";
 
@@ -17,8 +14,6 @@ const Navbar = () => {
   const { logout } = UserAuth();
 
   let navigate = useNavigate();
-
-  const [user] = useAuthState(auth);
 
   const Signout = () => {
     let SigningOut = window.confirm("Are you sure you want to logout?");
