@@ -23,7 +23,7 @@ const Sidenav = () => {
   return (
       <div className=' sidenav-desktop bg-black flex flex-col gap-10 py-12 items-center text-white'>
           <div className=' mb-5 flex items-center gap-1'>
-              <h1>Lets Chat</h1>
+              <h1>CircleChat</h1>
               <BsFillChatDotsFill />
           </div>
           {

@@ -32,7 +32,7 @@ const SignIn = () => {
     <div className="signin-container flex flex-col bg-blue-900 h-screen w-screen items-center justify-center">
       <div className=" text-center signin-box flex flex-col">
         <div className=" text-3xl items-center gap-3 flex">
-          <h1 className=" text-white text-3xl font-bold">Lets Chat</h1>
+          <h1 className=" text-white text-3xl font-bold">CircleChat</h1>
           <BsChatDotsFill className=" text-white" />
         </div>
         <p className=" text-sm  md:text-base text-white">
